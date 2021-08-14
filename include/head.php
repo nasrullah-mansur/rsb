@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="assets/css/slick.css">
 <link rel="stylesheet" href="assets/css/venobox.min.css">
 
+<link rel="shortcut icon" href="assets/images/logo-footer.png" type="image/x-icon">
+
 <!-- Main CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
 
