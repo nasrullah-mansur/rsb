@@ -1,0 +1,22 @@
+.footer {
+    padding-top: 100px;
+    background-color: $white;
+
+    h4 {
+        font-size: 15px;
+        font-weight: 700;
+        padding-bottom: 30px;
+        color: $primary-color;
+    }
+
+    .copyright {
+        margin-top: 100px;
+        padding: 30px;
+        background-color: #666;
+
+        p {
+            font-size: 12px;
+            line-height: 22px;
+        }
+    }
+}

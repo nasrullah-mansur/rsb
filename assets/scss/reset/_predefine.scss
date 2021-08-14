@@ -11,6 +11,7 @@ body {
 	font-weight: $fontWeight;
 	line-height: $bLineHeight;
 	color: $bColor;
+    background-color: $primary-color;
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -136,7 +137,6 @@ a:hover {
 
 a:active, a:hover {
   outline: 0 none;
-  color: $hover-color;
 }
 
 ul{
@@ -151,8 +151,101 @@ ul{
 }
 
 ::selection {
-    background: $primary-color;
+    background: $secondary-color;
     text-shadow: none;
     color: #ffffff;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.primary-btn {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: $secondary-color;
+    color: $primary-color;
+
+    &:hover {
+        color: $primary-color;
+    }
+
+    img {
+        height: 30px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+}
+
+.secondary-btn {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: $primary-color;
+    color: $secondary-color;
+
+    &:hover {
+        color: $secondary-color;
+    }
+
+    img {
+        height: 30px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+}
+
+.btn-footer {
+    padding-top: 60px;
+}
+
+.section-title {
+    padding-bottom: 60px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+
+    &.sm {
+        max-width: 285px;
+        margin: 0 auto;
+
+        &.bg-color {
+            &::after {
+                content: '';
+                width: 285px;
+                height: 285px;
+                border-radius: 50%;
+                background-color: $primary-color;
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -1;
+            }
+        }
+    }
+
+    h2 {
+        display: inline-block;
+        position: relative;
+        font-size: 40px;
+        line-height: 50px;
+        padding-left: 10px;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+    }
 }
 
