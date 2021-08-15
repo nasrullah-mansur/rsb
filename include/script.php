@@ -4,4 +4,6 @@
 <script src="assets/js/mixitup.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/venobox.min.js"></script>
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/multi-step-form.js"></script>
 <script src="assets/js/custom.js"></script>
