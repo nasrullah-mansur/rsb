@@ -2,12 +2,12 @@
 <section class="help">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-7 d-none d-md-block">
                     <div class="img">
                         <img class="img-fluid w-100" src="assets/images/help.png" alt="help">
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex align-items-center">
+                <div class="col-lg-5 col-md-5 d-flex align-items-center">
                     <div class="text">
                         <img src="assets/images/icon-massage.png" alt="icon">
                         <h2>Precisando de ajuda?</h2>

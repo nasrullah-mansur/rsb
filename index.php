@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="image text-right">
                         <img src="assets/images/banner.png" alt="banner">
                     </div>
@@ -73,25 +73,25 @@
             </div>
             <div class="offer-content">
                 <div class="row">
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="offer-item">
                             <img src="assets/images/18plus.png" alt="image">
                             <p>Ser maior de 18 anos ou emancipado</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="offer-item">
                             <img src="assets/images/cpe.png" alt="image">
                             <p>Estar com CPF em situação regular na Receita Federal</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="offer-item">
                             <img src="assets/images/house.png" alt="image">
                             <p>Possuir conta corrente ou poupança</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="offer-item">
                             <img src="assets/images/doller.png" alt="image">
                             <p>Possuir conta corrente ou poupança</p>
@@ -120,7 +120,7 @@
             </div>
             <div class="mobile-content">
                 <div class="row">
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="mobile-item">
                             <img class="img-fluid w-100" src="assets/images/mobile-1.png" alt="mobile">
                             <div class="text">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="mobile-item">
                             <img class="img-fluid w-100" src="assets/images/mobile-2.png" alt="mobile">
                             <div class="text">
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="mobile-item">
                             <img class="img-fluid w-100" src="assets/images/mobile-3.png" alt="mobile">
                             <div class="text">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-30">
+                    <div class="col-lg-3 col-md-6 mb-30">
                         <div class="mobile-item">
                             <img class="img-fluid w-100" src="assets/images/mobile-4.png" alt="mobile">
                             <div class="text">
@@ -209,13 +209,13 @@
     <div class="faq">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-sm-6">
                     <a href="#" class="secondary-btn">
                         <img src="assets/images/icon-faq.png" alt="icon">
                         <span>Perguntas Frequentes (FAQ)</span>
                     </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-sm-6 d-none d-sm-block">
                     <img src="assets/images/search.png" alt="search">
                 </div>
             </div>

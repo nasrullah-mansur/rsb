@@ -2,14 +2,14 @@
 <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="logo">
                         <a href="index.php">
                             <img src="assets/images/logo-footer.png" alt="logo">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4>Institucional</h4>
                         <ul>
@@ -19,7 +19,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4>Institucional</h4>
                         <ul>
@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4>Institucional</h4>
                         <ul>

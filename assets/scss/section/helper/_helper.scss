@@ -1,6 +1,8 @@
 .help {
     background-image: linear-gradient(to top, $secondary-color calc(100% - 160px), transparent 160px);
 
+   
+
     .text {
         margin-top: 120px;
 
@@ -11,6 +13,29 @@
             line-height: 50px;
             max-width: 250px;
             color: $primary-color;
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        background-image: linear-gradient(to top, $secondary-color calc(100% - 110px), transparent 110px);
+
+        .text h2 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        background-image: linear-gradient(to top, $secondary-color calc(100%), transparent 0);
+        padding-bottom: 120px;
+
+        .text h2 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            line-height: 40px;
         }
     }
 }
