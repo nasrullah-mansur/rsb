@@ -53,9 +53,7 @@
 
     <!-- Offer start -->
     <section class="offer">
-        <div class="overlay">
-            <img src="assets/images/zikzak.png" alt="zikzak">
-        </div>
+        
         <div class="container">
             <div class="section-title sm bg-color">
                 <h2 class="text-center">

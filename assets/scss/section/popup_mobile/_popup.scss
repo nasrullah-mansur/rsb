@@ -48,4 +48,11 @@
             display: block;
         }
     }
+
+    // Style two;
+    &.style-two {
+        p {
+            max-width: 120px;
+        }
+    }
 }

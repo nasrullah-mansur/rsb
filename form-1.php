@@ -85,6 +85,59 @@
         </section>
         <!-- From end -->
 
+        <!-- Form popup start -->
+        <div class="form-popup">
+            <div class="close">
+                <i class="fas fa-times"></i>
+            </div>
+            <p>Para receber a <strong>simulação</strong> com o seu <strong>saldo FGTS correto</strong>, é preciso aderir ao Saque Aniversário no APP do FGTS e autorizar o Banco SAFRA a consultar seu saldo FGTS.</p>
+            <div class="btn-area">
+                <a class="popup-mobile-show" href="#">Ver passo a passo</a>
+                <a class="dismiss" href="#">Continuar</a>
+            </div>
+        </div>
+        <!-- Form popup end -->
+
+        <!-- Popup start -->
+        <section class="popup-mobile style-two">
+            <div class="close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="container">
+                <h2>Como saber meu Saldo do FGTS?</h2>
+                <div class="row">
+                    <div class="col-sm-4 mb-30">
+                        <div class="mobile-item">
+                            <div class="img">
+                                <img src="assets/images/p-mobile-1.png" alt="mobile">
+                                <span>1</span>
+                            </div>
+                            <p>Caso ainda não tenha criado, crie sua senha no site <strong>GOV.BR</strong></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mb-30">
+                        <div class="mobile-item">
+                            <div class="img">
+                                <img src="assets/images/p-mobile-2.png" alt="mobile">
+                                <span>2</span>
+                            </div>
+                            <p>Entre no <strong>Aplicativo FGTS</strong> da Caixa Econômica com a senha do GOV.BR e clique em <strong>Saldo Total do FGTS</strong></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mb-30">
+                        <div class="mobile-item">
+                            <div class="img">
+                                <img src="assets/images/p-mobile-2.png" alt="mobile">
+                                <span>2</span>
+                            </div>
+                            <p>Entre no <strong>Aplicativo FGTS</strong> da Caixa Econômica com a senha do GOV.BR e clique em <strong>Saldo Total do FGTS</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Popup end -->
+
         <?php
         include 'include/help.php';
         include 'include/footer.php';
@@ -93,19 +146,10 @@
 
         <script type="text/javascript">
             $(".msf:first").multiStepForm({
-                activeIndex: 2,
+                activeIndex: 0,
                 allowClickNavigation: true,
                 allowUnvalidatedStep: false,
                 hideBackButton: false,
-                // validate: {
-                //     rules : {
-                //         name : "required",
-                //         email : {
-                //             required : true,
-                //             email : true
-                //             }
-                //         }
-                //     }
             });
         </script>
     </body>

@@ -19,4 +19,9 @@ $(document).ready(function() {
         $('.popup-mobile').fadeOut();
         $('.page-overlay').fadeToggle();
     });
+
+    $('.form-popup .close, .form-popup .dismiss').on('click', function(e) {
+        e.preventDefault();
+        $('.form-popup').fadeOut();
+    });
 });

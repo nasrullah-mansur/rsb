@@ -16,13 +16,13 @@
                         <i class="fas fa-window-close"></i>
                     </div>
                     <ul>
-                        <li><a href="#"><i class="fas fa-home"></i></a></li>
-                        <li class="fill"><a href="#">Contrate agora</a></li>
+                        <li><a href="index.php"><i class="fas fa-home"></i></a></li>
+                        <li class="fill"><a href="form-1.php">Contrate agora</a></li>
                         <li><a href="#">Ofertas de Crédito <i class="fas fa-angle-down"></i> </a>
                             <ul>
-                                <li><a href="#">Saque Aniversário FGTS</a></li>
-                                <li><a href="#">Crédito Consignado para Comissionados</a></li>
-                                <li><a href="#">Crédito Consignado Privado</a></li>
+                                <li><a href="index-2.php">Saque Aniversário FGTS</a></li>
+                                <li><a href="form-2.php">Crédito Consignado para Comissionados</a></li>
+                                <li><a href="benifit.php">Crédito Consignado Privado</a></li>
                             </ul>
                         </li>
                         <li class="active"><a href="#">Área do Parceiro</a></li>
