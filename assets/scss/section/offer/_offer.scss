@@ -12,6 +12,10 @@
 
         img {
             width: 65%;
+
+            @media (max-width: 991.98px) {
+                width: 100%;
+            }
         }
     }
     
@@ -36,6 +40,24 @@
             line-height: 30px;
             margin-top: 30px;
             color: $primary-color;
+        }
+
+        a {
+            display: inline-block;
+            height: 35px;
+            line-height: 35px;
+            padding: 0 40px;
+            text-align: center;
+            color: $primary-color;
+            border: 1px solid $primary-color;
+            border-radius: 18px;
+            transition: all linear .3s;
+
+            &:hover {
+                background-color: $secondary-color;
+                color: $white;
+                border-color: $secondary-color;
+            }
         }
     }
 }

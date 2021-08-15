@@ -1,4 +1,5 @@
 <!-- Header start -->
+<div class="page-overlay"></div>
 <header class="header">
         <div class="container">
             <div class="header-content">
