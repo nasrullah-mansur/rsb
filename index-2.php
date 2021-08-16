@@ -23,7 +23,7 @@
                         <h2>Crédito Pessoal inteligente</h2>
                         <p>Crédito para <span>quem precisa</span> 
                         Oportunidade para quem <span>oferta</span></p>
-                        <a href="#" class="primary-btn">
+                        <a href="offer.php" class="primary-btn">
                             <img src="assets/images/icon.png" alt="icon">
                             <span>Simule agora</span>
                         </a>

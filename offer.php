@@ -66,7 +66,7 @@
                             </li>
                             <li>
                                 <div class="text-center w-100">
-                                    <a href="#" class="primary-btn">
+                                    <a href="form-1.php" class="primary-btn">
                                         <img src="assets/images/icon.png" alt="icon">
                                         <span>Simular com meus dados</span>
                                     </a>
