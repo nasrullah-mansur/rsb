@@ -11,7 +11,7 @@
                     <div class="text">
                         <img src="assets/images/icon-massage.png" alt="icon">
                         <h2>Precisando de ajuda?</h2>
-                        <a href="#" class="secondary-btn">
+                        <a href="contact.php" class="secondary-btn">
                             <img src="assets/images/icon-massage-2.png" alt="icon">
                             <span>Simule agora</span>
                         </a>

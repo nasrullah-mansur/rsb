@@ -26,7 +26,7 @@
                         <div class="partner-item">
                             <img src="assets/images/part-1.png" alt="image">
                             <h2>Quero ser um Parceiro</h2>
-                            <a class="full-page-overlay-show" href="#">Saiba mais</a>
+                            <a class="full-page-overlay-1-show" href="#">Saiba mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-30 col-md-6">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mb-30 col-md-6 mx-auto">
-                        <div class="partner-item">
+                        <div class="partner-item has-overlay">
                             <img src="assets/images/part-3.png" alt="image">
                             <h2>Quero ser um Parceiro</h2>
                             <a href="#">Saiba mais</a>
@@ -63,17 +63,17 @@
                 <li>
                     <img src="assets/images/s-1.png" alt="s">
                     <span>Saque Aniversário FGTS</span>
-                    <a href="#">Preencher com Banco Safra</a>
+                    <a class="full-page-overlay-2-show" href="#">Preencher com Banco Safra</a>
                 </li>
                 <li>
                     <img src="assets/images/s-2.png" alt="s">
                     <span>Crédito Consignado para Comissionados</span>
-                    <a href="#">Em breve</a>
+                    <a class="disabled" href="#">Em breve</a>
                 </li>
                 <li>
                     <img src="assets/images/s-3.png" alt="s">
                     <span>Crédito Consignado Privado</span>
-                    <a href="#">Em breve</a>
+                    <a class="disabled" href="#">Em breve</a>
                 </li>
             </ul>
         </div>
@@ -81,9 +81,20 @@
     <!-- partner popup end -->
 
     <!-- Full page overlay start -->
-    <div class="full-page-overlay">
+    <div class="full-page-overlay full-page-overlay-1">
         <div class="content">
             <p>Site Externo (Banco Safra)</p>
+            <a href="#" class="close-pop">Anterior</a>
+        </div>
+    </div>
+    <!-- Full page overlay end -->
+
+    <!-- Full page overlay start -->
+    <div class="full-page-overlay full-page-overlay-2">
+        <div class="content">
+            <p>Formulário de envio
+                (Formulário simples)
+                Em desenvolvimento</p>
             <a href="#" class="close-pop">Anterior</a>
         </div>
     </div>

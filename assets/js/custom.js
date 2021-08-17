@@ -10,14 +10,14 @@ $(document).ready(function() {
     });
 
     $('.popup-mobile-show').on('click', function(e) {
+        bodyScrollUp();
         e.preventDefault();
         $('.popup-mobile').fadeIn();
-        $('.page-overlay').fadeToggle();
     });
 
     $('.popup-mobile .close').on('click', function() {
+        bodyScrollUp();
         $('.popup-mobile').fadeOut();
-        $('.page-overlay').fadeToggle();
     });
 
     $('.form-popup .close, .form-popup .dismiss').on('click', function(e) {
@@ -36,14 +36,24 @@ $(document).ready(function() {
         $('.partner-popup').fadeOut();
     });
 
-    $('.full-page-overlay-show').on('click', function() {
+    $('.full-page-overlay-1-show').on('click', function() {
         bodyScrollUp();
-        $('.full-page-overlay').fadeIn();
+        $('.full-page-overlay-1').fadeIn();
     });
 
-    $('.full-page-overlay .close-pop').on('click', function() {
+    $('.full-page-overlay-1 .close-pop').on('click', function() {
         bodyScrollUp();
-        $('.full-page-overlay').fadeOut();
+        $('.full-page-overlay-1').fadeOut();
+    });
+
+    $('.full-page-overlay-2-show').on('click', function() {
+        bodyScrollUp();
+        $('.full-page-overlay-2').fadeIn();
+    });
+
+    $('.full-page-overlay-2 .close-pop').on('click', function() {
+        bodyScrollUp();
+        $('.full-page-overlay-2').fadeOut();
     });
 
     function bodyScrollUp() {

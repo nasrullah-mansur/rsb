@@ -20,10 +20,7 @@
                         <h2>Crédito Pessoal inteligente</h2>
                         <p>Crédito para <span>quem precisa</span> 
                         Oportunidade para quem <span>oferta</span></p>
-                        <a href="#" class="primary-btn">
-                            <img src="assets/images/icon.png" alt="icon">
-                            <span>Simule agora</span>
-                        </a>
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
@@ -67,21 +64,21 @@
                         <div class="offer-item">
                             <img src="assets/images/s-1.png" alt="image">
                             <p>Ser maior de 18 anos ou emancipado</p>
-                            <a href="#">Saiba mais</a>
+                            <a href="index-2.php">Saiba mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30">
                         <div class="offer-item">
                             <img src="assets/images/s-2.png" alt="image">
                             <p>Estar com CPF em situação regular na Receita Federal</p>
-                            <a href="#">Saiba mais</a>
+                            <a href="benifit.php">Saiba mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-30 m-auto">
                         <div class="offer-item">
                             <img src="assets/images/s-3.png" alt="image">
                             <p>Possuir conta corrente ou poupança</p>
-                            <a href="#">Saiba mais</a>
+                            <a href="form-2.php">Saiba mais</a>
                         </div>
                     </div>
                     

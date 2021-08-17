@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-12 mb-30">
                         <div class="text-center btn-footer">
-                            <a href="#" class="primary-btn">
+                            <a href="offer.php" class="primary-btn">
                                 <img src="assets/images/icon.png" alt="icon">
                                 <span>Simule agora</span>
                             </a>
@@ -196,7 +196,7 @@
             </div>
             <div class="content">
                 <p>E aí? Que tal simular seu Empréstimo com garantia do Saque Aniversário FGTS? É totalmente sem compromisso.</p>
-                <a href="#" class="primary-btn">
+                <a href="offer.php" class="primary-btn">
                     <img src="assets/images/icon.png" alt="icon">
                     <span>Simule agora</span>
                 </a>
@@ -210,7 +210,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <a href="#" class="secondary-btn">
+                    <a href="faq.php" class="secondary-btn">
                         <img src="assets/images/icon-faq.png" alt="icon">
                         <span>Perguntas Frequentes (FAQ)</span>
                     </a>
