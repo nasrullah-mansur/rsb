@@ -24,4 +24,32 @@ $(document).ready(function() {
         e.preventDefault();
         $('.form-popup').fadeOut();
     });
+
+    $('.show-partner-popup').on('click', function(e) {
+        e.preventDefault();
+        bodyScrollUp();
+        $('.partner-popup').fadeIn();
+    });
+
+    $('.partner-popup .close').on('click', function() {
+        bodyScrollUp();
+        $('.partner-popup').fadeOut();
+    });
+
+    $('.full-page-overlay-show').on('click', function() {
+        bodyScrollUp();
+        $('.full-page-overlay').fadeIn();
+    });
+
+    $('.full-page-overlay .close-pop').on('click', function() {
+        bodyScrollUp();
+        $('.full-page-overlay').fadeOut();
+    });
+
+    function bodyScrollUp() {
+        $('html, body').animate({
+            scrollTop: 0,
+        });
+    }
+
 });

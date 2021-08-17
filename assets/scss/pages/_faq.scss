@@ -1,0 +1,31 @@
+.faq-page {
+    .faq-content {
+        .faq-item {
+            margin-bottom: 15px;
+
+            > a {
+                display: flex;
+                align-items: center;
+                min-height: 50px;
+                border: 2px solid #fff;
+                border-radius: 5px;
+                color: #fff;
+                padding: 0 15px;
+
+                i {
+                    margin-left: auto;
+                }
+            }
+
+            .card-body {
+                margin-top: 5px;
+
+                p {
+                    color: $primary-color;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}

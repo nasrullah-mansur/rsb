@@ -25,8 +25,8 @@
                                 <li><a href="benifit.php">Crédito Consignado Privado</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="#">Área do Parceiro</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li class="active"><a href="partner.php">Área do Parceiro</a></li>
+                        <li><a href="contact.php">Contato</a></li>
                     </ul>
                 </div>
             </div>
