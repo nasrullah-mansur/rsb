@@ -83,7 +83,6 @@
                         right: 0;
                         padding: 20px;
                         border-radius: 10px;
-                        // backdrop-filter: blur(15px) brightness(15%) opacity(.3);
                         background-color: rgba(255, 255, 255, 0.4);
                         opacity: 0;
                         visibility: hidden;
@@ -135,15 +134,21 @@
                     z-index: 9;
                 }
 
+                > ul > li {
+                    margin-bottom: 10px;
+                }
+
                 ul {
                     flex-direction: column;
                     padding-top: 60px;
+                    min-width: 350px;
 
                     li {
                         text-align: center;
                         padding-left: 0;
 
                         ul {
+                            display: none;
                             position: relative;
                             opacity: 1;
                             visibility: visible;

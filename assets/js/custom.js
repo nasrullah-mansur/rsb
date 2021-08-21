@@ -62,4 +62,11 @@ $(document).ready(function() {
         });
     }
 
+
+    if($(window).width() < 922) {
+        $('.header .header-content .menu ul li').on('click', function() {
+            $(this).children('ul').toggle();
+        })
+    }
+
 });
